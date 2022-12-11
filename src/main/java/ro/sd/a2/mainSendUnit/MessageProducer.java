@@ -72,7 +72,7 @@ public class MessageProducer
 
         //3)
         //Comentare daca nu vreau sa trimit:
-        //rabbitSender.send(deviceDataDTO);
+        rabbitSender.send(deviceDataDTO);
 
         messageProducerLog.info("Device Data was sent!");
 

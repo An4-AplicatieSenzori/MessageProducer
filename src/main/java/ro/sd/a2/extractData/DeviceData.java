@@ -70,7 +70,9 @@ public class DeviceData
         //3) Citirea valorii:
         //Scanner csv = new Scanner(new File("C:\\Users\\Tudor\\OneDrive\\Desktop\\FolderFisiereSemestrul7"
         //        + "\\FisiereSD\\Saptamana3\\DS2022_30641_Orsan_Tudor_1_MessageProducer\\Sensor.csv"));
-        Scanner csv = new Scanner(new File("./Sensor.csv"));
+        //Scanner csv = new Scanner(new File("./Sensor.csv"));
+        //Scanner csv = new Scanner(new File("./SensorOriginal.xlsx"));
+        Scanner csv = new Scanner(new File("./SensorOriginal.csv"));
         //, este delimitator in csv:
         csv.useDelimiter(",");
         //Afisarea tuturor datelor, luarea datei bune:
