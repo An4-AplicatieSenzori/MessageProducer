@@ -15,6 +15,7 @@ import java.util.TimerTask;
 @Service
 public class RabbitSender //extends TimerTask
 {
+    //Foloseste rabbit template;
     @Autowired
     private AmqpTemplate rabbitTemplate;
     private static final Logger logRabbit = LoggerFactory.getLogger(RabbitSender.class);
